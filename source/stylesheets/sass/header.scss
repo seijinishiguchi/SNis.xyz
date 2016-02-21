@@ -1,0 +1,16 @@
+.header {
+  @include layout-wrapper;
+  padding: 3rem 0 4rem;
+}
+
+.identity {
+  margin: 0;
+  color: $key;
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5rem;
+}
+
+.identity__link {
+  color: inherit;
+  text-decoration: none;
+}
